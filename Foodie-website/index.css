@@ -1,0 +1,42 @@
+body{
+    /* background-color: rgb(255, 68, 68); */
+    height: 100vh;
+   
+
+}
+.landing{
+    background-image: url("https://media.istockphoto.com/photos/spices-herbs-condiments-seasoning-on-grunge-gray-background-picture-id1208309818?s=612x612");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* position: relative; */
+}
+#signup-form {
+	width: 800px;
+	margin: 20px auto;
+}
+
+#login-form {
+	width: 700px;
+	margin: 20px auto;
+}
+
+#signup-form, #login-form {
+	display: none;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 160px;
+    gap: 30px;
+}
+.container .card-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

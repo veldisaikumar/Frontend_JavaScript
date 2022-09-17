@@ -1,0 +1,53 @@
+html,body{
+    margin:0;
+    /* background-image: url("https://blogs.biomedcentral.com/on-medicine/wp-content/uploads/sites/6/2019/09/iStock-1131794876.t5d482e40.m800.xtDADj9SvTVFjzuNeGuNUUGY4tm5d6UGU5tkKM0s3iPk-620x342.jpg"); */
+    background-color: rgb(252, 103, 103);
+    height: 100vh;
+   
+
+}
+.collapse ul li{
+    display: flex;
+    padding-left: 15px;
+    /* border-radius: 1px; */
+}
+.collapse button{
+    border-radius: 10px;
+}
+
+.cards{
+    /* margin-top: 200px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: fixed;
+   
+}
+.cards .card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards .card-body .card-text:hover{
+    font-size: 150%;
+    text-decoration: none;
+  
+}
+
+#signup-form {
+	width: 900px;
+	margin: 30px auto;
+}
+
+#login-form {
+	width: 700px;
+	margin: 20px auto;
+}
+
+#signup-form, #login-form {
+	display: none;
+}
+
+
