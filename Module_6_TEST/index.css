@@ -1,0 +1,24 @@
+.main-wrapper {
+	margin-top: 15px;
+    background-color: rgb(245, 239, 239);
+    
+	
+}
+
+.container h1{
+	text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+
+   
+}
+
+.registration-form {
+	width: 800px;
+  margin: auto;
+  
+}
+button{
+    margin-bottom: 10px;
+}

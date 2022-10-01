@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       /* Order placed 
+			After 2s -> Chef received the order and started preparing
+			After 10s -> Pizza Sauce added
+			After 5s -> First layer of cheeze added
+			After 12s -> Toppings added
+			After 5s -> Second layer of cheeze added
+			After 15s -> Pizza baked!
+			After 8s -> Oregano added and packed
+			After 2s -> Package received at counter
+			The order is ready and handed over to the Zomato guy!
+		*/
+
+        const manageOrder = (callback) =>{
+            console.log("order placed")
+            setTimeout(() => {
+                console.log('chef received the order and started preparing')
+                setTimeout(() => {
+                console.log('pizza sauce added')
+                setTimeout(() => {
+                console.log('first layer of cheeze added')
+                setTimeout(() => {
+                console.log('toppings added')
+                setTimeout(() => {
+                console.log('second layer of cheeze added')
+                setTimeout(() => {
+                console.log('pizza backed')
+                setTimeout(() => {
+                console.log('oregano added and pizza packed')
+                setTimeout(() => {
+                console.log('package received at counter')
+                callback()
+            },2000)
+                
+            },8000)
+                
+            },15000)
+                
+            },5000)
+                
+            },12000)
+                
+            },5000)
+                
+              },10000)
+                
+            },2000)
+        }
+
+            // chefReceivedOrder()
+        // pizzaSauceAdded()
+        // firstLayerOfCheezeAdded()
+        // toppingsAdded()
+        // secondLayerOfCheezeAdded()
+        // pizzaBaked()
+        // oreganoAdded()
+        // packageAtCounter()
+        // chefReceivedOrder()
+        // const chefReceivedOrder = () => {
+        //     setTimeout(() => {
+        //         console.log('chef received the order and started preparing')
+        //     },2000)
+        // }
+
+        // const pizzaSauceAdded = () => {
+        //     setTimeout(() => {
+        //         console.log('sauce added')
+        //     },12000)
+        // }
+
+        // const firstLayerOfCheezeAdded = () => {
+        //     setTimeout(() => {
+        //         console.log('first layer cheeze')
+        //     },17000)
+        // }
+
+        // const toppingsAdded = () => {
+        //     setTimeout(() => {
+        //         console.log('toppings added')
+        //     },29000)
+        // }
+
+        // const secondLayerOfCheezeAdded = () => {
+        //     setTimeout(() => {
+        //         console.log('second cheeze added')
+        //     },34000)
+        // }
+
+        // const pizzaBaked = () => {
+        //     setTimeout(() => {
+        //         console.log('pizza backed')
+        //     },49000)
+        // }
+
+        // const oreganoAdded = () => {
+        //     setTimeout(() => {
+        //         console.log('oregano added')
+        //     },57000)
+        // }
+
+        // const packageAtCounter = () => {
+        //     setTimeout(() => {
+        //         console.log('package at counter')
+        //     },59000)
+        // }
+
+        // const chefReceivedOrder = () => {
+        //     setTimeout(() => {
+        //         console.log('chef received the order and started preparing')
+        //     },2000)
+        // }
+        
+        // chefReceivedOrder()
+        // pizzaSauceAdded()
+        // firstLayerOfCheezeAdded()
+        // toppingsAdded()
+        // secondLayerOfCheezeAdded()
+        // pizzaBaked()
+        // oreganoAdded()
+        // packageAtCounter()
+        // chefReceivedOrder()
+    </script>
+</head>
+<body>
+    <button onclick="manageOrder(() => { 
+        console.log('the order is ready and handed over to the zomato guy')
+    })">Execute Order</button>
+</body>
+</html>
